@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="overlay_head">#00000000</color>
+    <color name="stroke">#E61B212B</color>
+    <color name="pickerStroke">#6195AEF8</color>
+
+    <!--<color name="background1">#282A35</color>
+    <string name="background1">Dark Material</string>
+    <color name="background2">#302644</color>
+    <string name="background2">Acorn</string>
+    <color name="background3">#11273A</color>
+    <string name="background3">Deep\nDarkness</string>
+    <color name="background4">#000000</color>
+    <string name="background4">Pitch Black</string>-->
+
+    <color name="overlay_accent_10">#1A1835FC</color>
+    <color name="overlay_accent_20">#331835FC</color>
+    <color name="overlay_accent_30">#4D1835FC</color>
+    <color name="overlay_accent_40">#661835FC</color>
+    <color name="overlay_accent_50">#801835FC</color>
+    <color name="overlay_accent_60">#991835FC</color>
+    <color name="overlay_accent_70">#B31835FC</color>
+    <color name="overlay_accent_80">#CC1835FC</color>
+    <color name="overlay_accent_90">#E61835FC</color>
+
+    <color name="overlay_background_01">#01000000</color>
+    <color name="overlay_background_10">#1A000000</color>
+    <color name="overlay_background_20">#33000000</color>
+    <color name="overlay_background_30">#4D000000</color>
+    <color name="overlay_background_40">#66000000</color>
+    <color name="overlay_background_50">#80000000</color>
+    <color name="overlay_background_60">#99000000</color>
+    <color name="overlay_background_70">#B3000000</color>
+    <color name="overlay_background_80">#CC000000</color>
+    <color name="overlay_background_90">#E6000000</color>
+
+    <color name="overlay_fg_10">#1Af7fbff</color>
+    <color name="overlay_fg_20">#33f7fbff</color>
+    <color name="overlay_fg_15">#26F7FBFF</color>
+    <color name="overlay_fg_30">#4Df7fbff</color>
+    <color name="overlay_fg_40">#66f7fbff</color>
+    <color name="overlay_fg_50">#80f7fbff</color>
+    <color name="overlay_fg_60">#99f7fbff</color>
+    <color name="overlay_fg_70">#B3f7fbff</color>
+    <color name="overlay_fg_80">#CCf7fbff</color>
+    <color name="overlay_fg_90">#E6f7fbff</color>
+
+
+    <color name="colorPrimary">@color/orange_background_dark</color>
+    <color name="colorPrimaryDark">@color/orange_background_dark</color>
+    <color name="colorAccent">#1835FC</color>
+    <color name="colorAccent_light">#2E62FF</color>
+    <color name="background">#000000</color><!-- #ff16171d -->
+    <color name="backgroundSB">#1A000000</color>
+    <!-- #ff16171d -->
+    <color name="cardbackgroundlight">@color/dim_foreground_light</color><!-- F5F9FF -->
+    <color name="dialog_contact">@color/dim_foreground_light</color><!-- navbar -->
+    <color name="dialog_contact2">@color/dim_foreground_light</color><!-- navbar -->
+    <color name="inactive">#0FCBD3ED</color>
+    <color name="textColor">#fff7fbff</color>
+    <color name="secondary_text_light">#AAB9CA</color><!-- app background_alpha -->
+    <!-- secondary_text_material_dark -->
+    <color name="buttonFocused">#AE5D6A88</color>
+    <color name="transparent">#00000000</color>
+    <color name="fab">#1832E6</color>
+    <color name="appintro_icon_tint">#91B8FF</color>
+    <color name="orange_background">#132ccb</color>
+    <color name="colorAccentPromptBackground">#0F121A</color>
+    <color name="colorAccent_dark">#F01B1D1F</color>
+    <color name="orange_background_dark">#091668</color>
+
+    <color name="tab_checked">@color/md_white</color>
+    <color name="tab_unchecked">#8596BE</color>
+    <color name="circle_selected">#4D697797</color>
+    <color name="selectableItemBackgroundBorderless">#14B3D7FD</color>
+
+    <color name="lottieFG1">#272F42</color>
+    <color name="lottieFG2">#141822</color>
+</resources>

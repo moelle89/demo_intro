@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:paddingTop="10dp"
+      android:paddingLeft="12dp"
+      android:paddingRight="12dp"
+      android:layout_marginTop="2dp"
+      >
+    <com.jaredrummler.android.colorpicker.NestedGridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:clickable="false"
+        android:columnWidth="52dp"
+        android:horizontalSpacing="4dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="6"
+        android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="10dp"
+        />
+
+    <View
+        android:id="@+id/shades_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#00B3D1E3"
+        android:background="@drawable/bgbtn"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:autoSizeTextType="uniform"
+        android:text="Shades:"
+        android:textColor="@color/secondary_text_light"
+        />
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:foreground="@drawable/fgbtn" android:padding="10dp">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="ifContentScrolls"
+        android:stretchMode="spacingWidthUniform"
+        android:backgroundTint="#2171A1F0"
+        android:background="@drawable/bgbtn"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:scrollbars="none"
+        >
+      <LinearLayout
+          android:id="@+id/shades_layout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="2dp"
+          android:paddingBottom="2dp"
+          android:orientation="horizontal">
+        <!-- views added dynamically -->
+      </LinearLayout>
+    </HorizontalScrollView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/transparency_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/cpv_transparency"
+        />
+
+    <LinearLayout
+        android:id="@+id/transparency_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        >
+
+      <SeekBar
+          android:id="@+id/transparency_seekbar"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginRight="4dp"
+          android:layout_weight="85"
+          />
+
+      <TextView
+          android:id="@+id/transparency_text"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_weight="15"
+          android:textStyle="bold"
+          android:typeface="monospace"
+          tools:text="100%"
+          />
+
+    </LinearLayout>
+
+  </LinearLayout>
+</ScrollView>

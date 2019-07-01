@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".SubstratumLauncher">
+
+	<com.airbnb.lottie.LottieAnimationView
+		android:id="@+id/av_from_code"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_gravity="center"
+		android:scaleType="centerCrop"
+		app:lottie_rawRes="@raw/data"
+		app:lottie_speed="1.1 "
+        app:lottie_renderMode="hardware"/>
+
+	<TextView
+		android:id="@+id/title"
+		android:layout_width="match_parent"
+		android:layout_height="0dip"
+		android:background="#00000000"
+		android:gravity="center_vertical|center_horizontal"
+		android:paddingLeft="0dip"
+		android:paddingRight="0dip"
+		android:text="@string/launch_dialog_title"
+		android:textColor="#00000000"
+		android:textSize="22sp"/>
+
+
+
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:background="#00000000"
+        android:fitsSystemWindows="false"
+        android:paddingBottom="120dip">
+
+        <View android:id="@+id/strut"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/textExit"
+            android:text=""
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/buttonFocused"
+            android:layout_marginBottom="70dip"
+            android:layout_marginStart="20dip"
+			android:drawableStart="@drawable/ic_back"
+            android:layout_width="0dp"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@id/strut"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/ic_continue"
+            android:text=""
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="70dip"
+            android:layout_marginStart="10dip"
+            android:drawableStart="@drawable/ic_continue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/strut"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent" />
+
+
+		<TextView
+			android:id="@+id/dialog_content"
+			android:layout_width="match_parent"
+			android:layout_height="0dip"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentTop="true"
+			android:layout_marginStart="0dip"
+			android:layout_marginTop="50dip"
+			android:background="#00000000"
+			android:gravity="center"
+			android:paddingStart="0dip"
+			android:text="@string/launch_dialog_content"
+			android:textAlignment="center"
+			android:textColor="#fff"
+			android:textSize="16sp" />
+
+
+		<TextView
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentEnd="true"
+			android:layout_alignParentBottom="true"
+			android:layout_marginEnd="50dip"
+			android:layout_marginBottom="0dip"
+			android:text="@string/app_version"
+			android:textColor="@color/buttonFocused"
+			android:textSize="9sp" />
+
+	</RelativeLayout>
+
+
+
+</RelativeLayout>
